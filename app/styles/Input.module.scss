@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100%;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border 0.3s;
+}
+
+.input:focus {
+  border-color: #0070f3;
+  outline: none;
+}
